@@ -1,0 +1,40 @@
+2025-04-01 05:25:53 [[31merror[39m]: Status: 500 [GET] /api/pets/67eb1eb98efac7e77a77a1 - msg: Cast to ObjectId failed for value "67eb1eb98efac7e77a77a1" (type string) at path "_id" for model "pets"
+2025-04-01 05:25:53 [[31merror[39m]: {
+  "statusCode": 500,
+  "files": [
+    "CastError: Cast to ObjectId failed for value \"67eb1eb98efac7e77a77a1\" (type string) at path \"_id\" for model \"pets\"",
+    "    at SchemaObjectId.cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)",
+    "    at SchemaType.applySetters (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)",
+    "    at SchemaType.castForQuery (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)",
+    "    at cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\cast.js:390:32)",
+    "    at Query.cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:4907:12)",
+    "    at Query._castConditions (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:2325:10)",
+    "    at model.Query._findOne (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:2648:8)",
+    "    at model.Query.exec (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:4456:80)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async PetDao.getOne (file:///C:/Programacion/BACKEND3/clase6/src/modules/pets/pet.dao.js:14:12)"
+  ],
+  "message": "Cast to ObjectId failed for value \"67eb1eb98efac7e77a77a1\" (type string) at path \"_id\" for model \"pets\"",
+  "path": "/api/pets/67eb1eb98efac7e77a77a1",
+  "method": "GET"
+}
+2025-04-01 05:27:00 [[31merror[39m]: Status: 500 [GET] /api/pets/67eb1eb98efac7e77a77a1 - msg: Cast to ObjectId failed for value "67eb1eb98efac7e77a77a1" (type string) at path "_id" for model "pets"
+2025-04-01 05:27:00 [[31merror[39m]: {
+  "statusCode": 500,
+  "files": [
+    "CastError: Cast to ObjectId failed for value \"67eb1eb98efac7e77a77a1\" (type string) at path \"_id\" for model \"pets\"",
+    "    at SchemaObjectId.cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)",
+    "    at SchemaType.applySetters (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)",
+    "    at SchemaType.castForQuery (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)",
+    "    at cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\cast.js:390:32)",
+    "    at Query.cast (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:4907:12)",
+    "    at Query._castConditions (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:2325:10)",
+    "    at model.Query._findOne (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:2648:8)",
+    "    at model.Query.exec (C:\\Programacion\\BACKEND3\\clase6\\node_modules\\mongoose\\lib\\query.js:4456:80)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async PetDao.getOne (file:///C:/Programacion/BACKEND3/clase6/src/modules/pets/pet.dao.js:14:12)"
+  ],
+  "message": "Cast to ObjectId failed for value \"67eb1eb98efac7e77a77a1\" (type string) at path \"_id\" for model \"pets\"",
+  "path": "/api/pets/67eb1eb98efac7e77a77a1",
+  "method": "GET"
+}
